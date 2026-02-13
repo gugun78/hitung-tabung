@@ -2,8 +2,8 @@ import streamlit as st
 import math, time
 
 st.title("_Menghitung_ :blue[Volume Tabung] :rocket:")
-r = st.number_input("Masukan jari-jari (cm), 0")
-t = st.number_input("Masukan tinggi (cm), 0")
+r = st.number_input("Masukan jari-jari (cm)", 0)
+t = st.number_input("Masukan tinggi (cm)", 0)
 if st.button("Hitung Volume", type="primary"):
   loading = st.progress(0)
   for i in range(100):

@@ -12,10 +12,3 @@ if st.button("Hitung Volume", type="primary"):
     
   v = math.pi*(r**2)*t
   st.success(f'Volume tabung adalah {v:.2f}')
-
-st.title("Page 1")
-def page_2():
-    st.title("Page 2")
-
-pg = st.navigation(["page_1.py", page_2])
-pg.run()
